@@ -17,7 +17,7 @@ public class FoodItem {
     private String itemName;
     private String itemDescription;
     private Boolean isVeg;
-    private Number price;
+    private Double price;
     private Integer restaurantId;
 
     @Column(nullable = false, columnDefinition = "INT DEFAULT 0")
